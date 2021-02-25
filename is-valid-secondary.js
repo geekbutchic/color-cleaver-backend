@@ -1,22 +1,21 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-function isValidSecondary (color) {
-  if (color === 'orange') {
+isValidSecondary = (color) => {
+  if (color === "orange") {
     return true;
-  } if (color === 'purple') {
+  } if (color === "purple") {
     return true;
-  } if (color === 'green') {
+  } if (color === "green") {
     return true;
-  } if (color === 'red') {
+  } if (color === "red") {
     return false;
-  } if (color === 'black') {
+  } if (color === "black") {
     return false;
-  } if (color === 'white') {
+  } if (color === "white") {
     return false;
   }
 }
-
 
 
 // Our setup code here. Don't touch!

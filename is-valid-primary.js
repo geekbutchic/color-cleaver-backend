@@ -1,23 +1,22 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-function isValidPrimary (color) {
-  if (color === "red") {
+isValidPrimary = (color) => {
+  if (color === "red"){
     return true;
-  } if (color === 'yellow') {
+  } if (color === "yellow") {
     return true;
-  } if (color === 'blue') {
+  } if (color === "blue") {
     return true; 
-    } if (color === "orange") {
+  } if (color === "orange") {
     return false;
-    } if (color === "blorgon") {
+  } if (color === "blorgon") {
     return false;
-    } if (color === "ted") {
+  } if (color === "ted") {
     return false;
-    }
   }
- 
-   
+}
+
 
 // Our setup code here. Don't touch!
 if(typeof isValidPrimary === 'undefined') {
