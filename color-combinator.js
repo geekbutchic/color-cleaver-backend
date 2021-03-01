@@ -19,9 +19,6 @@ colorCombinator = (color1, color2) => {
 
 
 
-
-
-
 // Our setup code here. Don't touch!
 if(typeof colorCombinator === 'undefined') {
   colorCombinator = undefined;
